@@ -1,0 +1,38 @@
+
+Fake API:
+
+PS C:\Users\Pravallika\Downloads\Shop_Smart-master\FakeAPI> json-server --watch products.json -p 4240
+--watch/-w can be omitted, JSON Server 1+ watches for file changes by default
+JSON Server started on PORT :4240
+Press CTRL-C to stop
+Watching products.json...        
+
+♡⸜(˶˃ ᵕ ˂˶)⸝♡
+
+Index:
+http://localhost:4240/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:4240/products
+
+
+
+Frontend:
+
+PS C:\Users\Pravallika\Downloads\Shop_Smart-master\Shop_Smart-master> npm start
+
+> shop-smart@0.1.0 start
+> react-scripts start   
+
+Browserslist: caniuse-lite is outdated. Please run:
+Compiled successfully!
+
+You can now view shop-smart in the browser.      
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.92.251:3000   
+
+Note that the development build is not optimized.
