@@ -1,0 +1,63 @@
+.form-overlay{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 1000; 
+    width: 100vw;
+    height: 100vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-overlay form{
+    width: 400px;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+.form-group label{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+.form-control{
+    padding: 10px 5px;
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.form-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-btn-send{
+    margin: 10px;
+    padding: 15px 20px;
+    background-color: #007BFF;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-btn-cancel{
+    margin: 10px;
+    padding: 15px 20px;
+    background-color: #DC3545;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+.admin-home{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.logo-big{
+    width: 250px;
+    height: 250px;
+}
+
+.slogan{
+    font-size: 20px;
+    font-family: verdana;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.category-imgs{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.category-img:hover{
+    transform: scale(1.1);
+}
